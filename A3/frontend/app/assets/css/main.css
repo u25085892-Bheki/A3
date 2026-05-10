@@ -1,0 +1,35 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+  background-color: #5E548E;
+  color: white;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+nav
+{
+    background-color: #100C31;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+h1,h2
+{
+    text-align: center;
+}
+h2
+{
+    margin-bottom: 20px;
+}
+h1
+{
+    margin: 20px 0 20px 0;
+}
+
