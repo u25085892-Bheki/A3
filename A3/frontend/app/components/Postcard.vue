@@ -33,5 +33,6 @@ defineProps({
   margin: 20px 0 20px 0;
   width: 720px;
   padding: 30px;
+  border-radius: 20px;
 }
 </style>

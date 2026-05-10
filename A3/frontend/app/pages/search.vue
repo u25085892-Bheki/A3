@@ -1,3 +1,4 @@
+<!--Tumisho Matsiu u25085892-->
 <template>
   <div>
     <h1>Search</h1>
@@ -53,5 +54,6 @@ const searchResults = computed(() => {
     {
         width: 720px;
         padding: 10px 30px 10px 30px;
+        border-radius: 20px;
     }
 </style>

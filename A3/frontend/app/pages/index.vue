@@ -1,3 +1,4 @@
+<!--Tumisho Matsiu u25085892-->
 <template>
   <div>
   <div id="inputContainer">
@@ -58,6 +59,7 @@ const filteredPosts = computed(() => {
       justify-self: end;
       align-self: center;
       margin-right: 20px;
-      padding: 10px;
+      padding: 15px;
+      border-radius: 20px;
     }
 </style>
