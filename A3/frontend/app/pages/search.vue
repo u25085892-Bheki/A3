@@ -1,12 +1,14 @@
 <template>
   <div>
     <h1>Search</h1>
+    <div id="inputContainer">
+        <input 
+        v-model="searchQuery" 
+        type="text" 
+        placeholder="Search by title or author..."
+        />       
+    </div>
 
-    <input 
-      v-model="searchQuery" 
-      type="text" 
-      placeholder="Search by title or author..."
-    />
     <div v-if="pending">Loading...</div>
     <div v-else-if="error">Failed to load posts.</div>
     <div v-else>
@@ -41,3 +43,15 @@ const searchResults = computed(() => {
   )
 })
 </script>
+<style lang="css" scoped>
+    #inputContainer
+    {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    input
+    {
+        width: 720px;
+        padding: 10px 30px 10px 30px;
+    }
+</style>
